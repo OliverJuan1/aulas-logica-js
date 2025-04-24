@@ -9,4 +9,4 @@ const produto02 ={
     preco: 30.00 ,
     quantidade: 2
 }
-console.log(`O valor total final é ${(produto01.preco * produto01.quantidade)+ (produto02.preco * produto02.quantidade)}`)
+console.log(`O resultado do cálculo final é ${(produto01.preco * produto01.quantidade)+ (produto02.preco * produto02.quantidade)}`)
