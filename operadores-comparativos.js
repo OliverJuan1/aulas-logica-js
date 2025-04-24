@@ -1,0 +1,16 @@
+const valor01 = 10
+
+const valor02 = "20"
+
+const valor03 = 20
+
+const valor04 = 30
+
+// ==, ===, > , < ,>= , <= , != , !==
+
+// console.log(`O valor da variável é ${typeof valor03}`)  // typeof é uma instrução para verificar o tipo de dado da variável
+// console.log(valor03 >= valor04)
+
+const verificadorDeNumeroPar = valor04 % 2 == 0
+
+console.log(`${verificadorDeNumeroPar ? "Valor Par" : "Valor Impar"}`)
