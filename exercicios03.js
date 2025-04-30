@@ -7,5 +7,4 @@ function resultadoFinal(nota) {
         console.log("Resultado Final é: Reprovado")
     }
 }
-resultadoFinal(7)
-
+resultadoFinal(6)
