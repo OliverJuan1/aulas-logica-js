@@ -4,7 +4,7 @@ const showButton = document.querySelector("#show")
 
 const hideButton = document.querySelector("#hide")
 
-const hideShowButton = document.querySelector("#hideShowContent") 
+const hideShowButton = document.querySelector("#hideShowContent")
 
 showButton.addEventListener("click", ()=>{
     content.classList.add("show")
@@ -13,9 +13,10 @@ showButton.addEventListener("click", ()=>{
 
 hideButton.addEventListener("click", ()=>{
     content.classList.add("hide")
-    content.classList.remove("show")
+    content.classList.remove("show") 
 })
 
-hideShowButton.addEventListener("click", ()=>{
+hideShowButton.addEventListener("click",()=>{
     content.classList.toggle("hide")
+    content.classList.remove("show")
 })

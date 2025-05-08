@@ -4,7 +4,16 @@ const resultado = document.querySelector("#resultado")
 
 const btnIncrementarValor = document.querySelector("#btnIncrementar")
 
-btnIncrementarValor.addEventListener("click", ()=> {
+btnIncrementarValor.addEventListener("click", () => {
     contador++
     resultado.textContent = `Contador: ${contador}`
+})
+
+btnReduzir.addEventListener("click", () => {
+    if (contador > 0) {
+
+
+        contador--
+        resultado.textContent = `Contador: ${contador}`
+    }
 })
